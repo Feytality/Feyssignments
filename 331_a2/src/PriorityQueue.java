@@ -5,9 +5,11 @@ public class PriorityQueue {
     Fey -> getMax, remove
   */
   
+  private Heap m_Heap;
+  
   public PriorityQueue()
   {
-    
+    m_Heap = new Heap();
   }
   
   public int size()
