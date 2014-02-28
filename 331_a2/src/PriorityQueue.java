@@ -1,5 +1,10 @@
 public class PriorityQueue {
   
+  /*
+    Math -> size, isempty, insert
+    Fey -> getMax, remove
+  */
+  
   public PriorityQueue()
   {
     
